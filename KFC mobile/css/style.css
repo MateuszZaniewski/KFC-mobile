@@ -1,0 +1,62 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html{
+     font-size: 62.5%;
+
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.navbar{
+     height: 10vh;
+     border: 1px solid black;
+     display: flex;
+     flex-flow: row nowrap;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 5% 0 5%;
+
+}
+
+#logo{
+     height: 4rem;
+     width: 4rem;
+}
+
+#hamburger{
+     width: 4rem;
+}
+
+#mainLogo{
+     height: 35vh;
+     border: 1px solid black;
+     background: url(../assets/mainFoto.jpg);
+     background-size:cover;
+}
