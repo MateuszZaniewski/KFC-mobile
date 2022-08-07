@@ -44,7 +44,7 @@ body{
      flex-flow: row nowrap;
      align-items: center;
      justify-content: space-between;
-     padding: 3% 5%;
+     padding: 5% 5%;
 }
 
 #logo,
@@ -54,7 +54,6 @@ body{
 }
 
 #mainLogo{
-     border: 1px solid black;
      background: url(../assets/mainFoto.jpg);
      background-size: cover;
      background-repeat: no-repeat;
@@ -64,41 +63,92 @@ body{
 }
 
 .mainBox{
-     height: 25vh;
-     border: 1px solid black;
+     border: 0.1rem solid rgb(238, 235, 235);
      margin: 0 auto;
-     width: 80%;
+     width: 90%;
      border-radius: 2rem;
      display: flex;
      flex-flow: column nowrap;
-     margin-top: -3rem;
-     background-color: lightgray;
+     margin-top: -1.5rem;
+     background-color: rgb(238, 235, 235);
 }
 
 .twoBoxes{
-     border: 1px solid black;
-     border-radius: 2rem;
-     height: 4rem;
-     margin: 0 auto;
-     width: 80%;
-     margin-top: 1rem;
+     border: 0.2rem solid rgb(139, 138, 138);
+     border-radius: 1rem;
+     margin: 4% auto;
+     width: 90%;
      display: flex;
      flex-flow: row nowrap;
 }
 
 .leftBox{
      width: 50%;
-     border-right: 1px solid black;
+     color: rgb(39, 38, 38);
+     font-weight: bold;
+     letter-spacing: 0.05rem;
+     padding: 1rem 1rem;
 }
+
+.leftBox:hover,
+.rightBox:hover{
+     background-color: white;
+     border-bottom: 0.3rem solid red;
+     border-radius: 1rem;
+}
+
+.leftBox p{
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 0.4rem 0.4rem;
+}
+
 
 .rightBox{
      width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     color: rgb(39, 38, 38);
+     font-weight: bold;
+     letter-spacing: 0.05rem;
+     text-align: center;
+     padding: 0.4rem 0.4rem;
+}
+
+.rightBox p{
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 0.4rem 0.4rem;
 }
 
 .inputBox{
      margin: 0 auto;
-     width: 80%;
-     border: 1px solid black;
-     border-radius: 2rem;
-     height: 20vh;
+     width: 90%;
+     background-color: white;
+     border-radius: 1rem;
+     display: flex;
+     flex-flow: column;
+     padding: 3% 3%;
 }
+
+.inputBox input{
+     width: 90%;
+     margin: 3% auto;
+     padding: 1.3rem 0;
+     text-align: center;
+     border: 0.1rem solid rgb(202, 200, 200);
+}
+
+.inputBox button{
+     margin: 4% auto;
+     background-color: rgba(106, 142, 35, 0.623);
+     border-radius: 1rem;
+     padding: 3% 8%;
+     color: white;
+     border: none;
+     width: 90%;
+}
+
+
