@@ -35,28 +35,66 @@ html{
 /* ADDITIONAL STYLES
 /*******************************************/
 .navbar{
-     height: 10vh;
-     border: 1px solid black;
+     
      display: flex;
      flex-flow: row nowrap;
      align-items: center;
      justify-content: space-between;
-     padding: 0 5% 0 5%;
-
+     padding: 3% 5%;
 }
 
-#logo{
-     height: 4rem;
-     width: 4rem;
-}
-
+#logo,
 #hamburger{
-     width: 4rem;
+     height: 10%;
+     width: 10%;
 }
 
 #mainLogo{
-     height: 35vh;
      border: 1px solid black;
      background: url(../assets/mainFoto.jpg);
-     background-size:cover;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 0;
+     padding-top: 75.64%;
+}
+
+.mainBox{
+     height: 25vh;
+     border: 1px solid black;
+     margin: 0 auto;
+     width: 80%;
+     border-radius: 2rem;
+     display: flex;
+     flex-flow: column nowrap;
+     margin-top: -3rem;
+     background-color: lightgray;
+}
+
+.twoBoxes{
+     border: 1px solid black;
+     border-radius: 2rem;
+     height: 4rem;
+     margin: 0 auto;
+     width: 80%;
+     margin-top: 1rem;
+     display: flex;
+     flex-flow: row nowrap;
+}
+
+.leftBox{
+     width: 50%;
+     border-right: 1px solid black;
+}
+
+.rightBox{
+     width: 50%;
+}
+
+.inputBox{
+     margin: 0 auto;
+     width: 80%;
+     border: 1px solid black;
+     border-radius: 2rem;
+     height: 20vh;
 }
