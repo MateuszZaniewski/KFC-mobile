@@ -51,6 +51,7 @@ body{
      padding: 5% 5%;
      background-color: white;
      position: fixed;
+     z-index: 100;
 }
 
 .navbarFull{
@@ -271,6 +272,7 @@ h2{
      border-radius: 2rem;
      margin-bottom: 1.5rem;
      box-shadow: 1px 1px 5px 4px lightgray;
+     max-height: 250px;
      min-height: 250px;
 }
 
@@ -295,4 +297,79 @@ h2{
 .menuBoxes a{
      color: black;
      text-decoration: none;
+}
+
+.redThing{
+     width: 100%;
+     background-color: #e20c0c;
+     height: auto;
+     margin-top: 8rem;
+}
+
+.redThingBox{
+     display: flex;
+     flex-flow: column nowrap;
+     row-gap: 5rem;
+     width: 100%;
+     margin: 0 auto;
+     color: white;
+     font-size: 1.2rem;
+     padding: 3rem 3rem;
+     box-shadow: 1px 0 0 1px grey;
+}
+
+.redThingBox img{
+     height: 20%;
+     width: 15%;
+     border: 1.3px solid white;
+     border-radius: 50%;
+     padding: 0.4rem 0.4rem;
+}
+
+.redThingBox p{
+     color: white;
+}
+
+.redThingBoxInfo{
+     display: flex;
+     align-items: center;
+     column-gap: 2rem;
+}
+
+.capsInfo{
+     width: 100%;
+}
+
+.redThingBox1{
+     color: white;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+
+.redThingBoxSpansInfo{
+     display: flex;
+     flex-direction: column wrap;
+     align-self: center;
+     row-gap: 4rem;
+     column-gap: 1rem;
+     width: 100%;
+
+}
+
+.redThingBoxSpansInfo span{
+     width: 100%;
+     text-align: left;
+     padding: 0 3rem;
+}
+
+.firstColumn,
+.secondColumn{
+     width: 50%;
+     display: flex;
+     flex-flow: column nowrap;
+     row-gap: 1rem;
+     padding: 15% 0;
+     font-size: 1.2rem;
 }
