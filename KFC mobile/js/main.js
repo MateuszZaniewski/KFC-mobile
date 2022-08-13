@@ -9,11 +9,10 @@ hamburger.addEventListener('click', showMenu)
 function showMenu(){
     if(hamburgerHover.style.display == 'flex'){
         hamburgerHover.style.display = 'none'
-        navbar.style.flexDirection = 'row'
+        navbar.style.display = 'flex'
+
     } else {
     hamburgerHover.style.display = 'flex'
-    navbar.style.flexDirection = 'column'
-    navbar.style.margin = '0 auto'
-    
-            }
+    hamburgerHover.style.flexDirection = 'column'
+    }
 }
