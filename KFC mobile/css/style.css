@@ -192,8 +192,9 @@ body{
      height: 0;
      padding-top: 100%;
      animation-name: commercialAnimation;
-     animation-duration: 10s;
+     animation-duration: 20s;
      animation-iteration-count: infinite;
+     transition-timing-function: ease;
 }
 
 @keyframes commercialAnimation {
@@ -203,19 +204,25 @@ body{
           width: 100%;
           height: 0;
           padding-top: 100%;}
-     25%  {background: url(../assets/commercial2.jpg);
+     20%  {background: url(../assets/commercial2.jpg);
           background-size: cover;
           background-repeat: no-repeat;
           width: 100%;
           height: 0;
           padding-top: 100%;}
-     50%  {background: url(../assets/commercial3.jpg);
+     40%  {background: url(../assets/commercial3.jpg);
           background-size: cover;
           background-repeat: no-repeat;
           width: 100%;
           height: 0;
           padding-top: 100%;}
-     100% {background: url(../assets/commercial4.jpg);
+     60% {background: url(../assets/commercial4.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 0;
+          padding-top: 100%;}
+     80% {background: url(../assets/commercial1.jpg);
           background-size: cover;
           background-repeat: no-repeat;
           width: 100%;
@@ -274,6 +281,7 @@ h2{
      box-shadow: 1px 1px 5px 4px lightgray;
      max-height: 250px;
      min-height: 250px;
+     font-family: 'DynaPuff', cursive;
 }
 
 .menuBoxIMG{
@@ -304,6 +312,7 @@ h2{
      background-color: #e20c0c;
      height: auto;
      margin-top: 8rem;
+     font-family: 'Roboto', sans-serif;
 }
 
 .redThingBox{
